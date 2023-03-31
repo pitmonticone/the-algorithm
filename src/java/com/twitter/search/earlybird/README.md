@@ -54,7 +54,7 @@ The project consists of several packages and files, which can be summarized as f
 * `ml/`: Houses the `ScoringModelsManager` for managing machine learning models.
 * `partition/`: Manages partitions and index segments, including index loaders, segment writers, and startup indexers.
 * `querycache/`: Implements caching for queries and query results, including cache configuration and update tasks.
-* `queryparser/`: Provides query parsing functionality, including files that cover query rewriters and lhigh-frequency term extraction.
+* `queryparser/`: Provides query parsing functionality, including files that cover query rewriters and high-frequency term extraction.
 * `search/`: Contains read path related classes, such as search request processing, result collectors, and facet collectors.
 * `segment/`: Provides classes for managing segment data providers and data reader sets.
 * `stats/`: Contains classes for tracking and reporting statistics related to the system.
